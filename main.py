@@ -99,4 +99,3 @@ while True:
     
     elif weight <= 5:
         fill_waterer()
-
