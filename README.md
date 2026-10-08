@@ -24,3 +24,6 @@ How it Works
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;Every 15 minutes, the load cell takes a weight reading, and the hx711 converts the load cell's tiny electrical signal into a readable weight value. The pico w then uses that value to either keep waiting or turn on the solenoid valve, depending on how heavy the waterer currently is. Once it gets light enough, the valve turns on, and the pico w checks every half of a second if the weight of the waterer is at its fill threshold. Once that threshold is reached, it then turns off the valve, and repeats the whole process.
 
+Code
+---
+&nbsp;&nbsp;&nbsp;&nbsp;
