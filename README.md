@@ -7,7 +7,7 @@ Components:
 - Hx711 Load Cell Amplifier
 - Relay Module
 - 12V, 2A Power Supply
-- IN4007 Diode
+- 1N4007 Diode
 - Momentary Push Button
 
 Project Overview
