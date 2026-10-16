@@ -26,4 +26,4 @@ How it Works
 
 Code
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;The micropython program remotely installed on the pico w controls the entire system. 
