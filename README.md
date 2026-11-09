@@ -44,4 +44,8 @@ BlahBlah
 
 Project Demonstration
 ---
-BlahBlah
+Startup:
+
+Safety Shutoff:
+
+Manual Control:
