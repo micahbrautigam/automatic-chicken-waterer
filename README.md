@@ -26,17 +26,16 @@ Code
 
 Hardware
 ---
-
-| Component | Link |
-| --- | --- |
-| Raspberry Pi Pico W Microcontroller | https://www.newark.com/raspberry-pi/raspberry-pi-pico-wh/sbc-raspberry-pi-pico-wh-rp2040/dp/38AK5987?CMP=KNC-GUSA-GEN-PMAX-Shopping-New |
-| Solenoid Valve | https://ussolid.com/products/u-s-solid-solenoid-valve-1-2-zinc-alloy-12v-dc-solenoid-valve-nbr-seal-html?variant=46918472728831 |
-| S-type Load Cell | https://www.amazon.com/Portable-High-Precision-Pressure-Tension-Weighing/dp/B077YHNNCP/ref=sr_1_17_sspa?s=industrial |
-| Hx711 Load Cell Amplifier | https://www.newark.com/raspberry-pi/raspberry-pi-pico-wh/sbc-raspberry-pi-pico-wh-rp2040/dp/38AK5987?CMP=KNC-GUSA-GEN-PMAX-Shopping-New |
-| Relay Module | https://www.amazon.com/JESSINIE-Channel-Optocoupler-Isolated-Development/dp/B0BG2F7349/ref=sr_1_3 |
-| 12V, 2A Power Supply | Row 6, Col 2 |
-| 1N4007 Diode | https://www.amazon.com/EEEEE-1N4007-Rectifier-Electronic-Silicon/dp/B0FC2CQF24/ref=sr_1_1_sspa |
-| Momentary Push Button | https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2/ref=sr_1_1_sspa |  
+| Component | What it Does | Link |
+| --- | --- | --- |
+| Raspberry Pi Pico W Microcontroller | What it Does | https://www.newark.com/raspberry-pi/raspberry-pi-pico-wh/sbc-raspberry-pi-pico-wh-rp2040/dp/38AK5987?CMP=KNC-GUSA-GEN-PMAX-Shopping-New |
+| Solenoid Valve | What it Does | https://ussolid.com/products/u-s-solid-solenoid-valve-1-2-zinc-alloy-12v-dc-solenoid-valve-nbr-seal-html?variant=46918472728831 |
+| S-type Load Cell | What it Does | https://www.amazon.com/Portable-High-Precision-Pressure-Tension-Weighing/dp/B077YHNNCP/ref=sr_1_17_sspa?s=industrial |
+| Hx711 Load Cell Amplifier | What it Does | https://www.newark.com/raspberry-pi/raspberry-pi-pico-wh/sbc-raspberry-pi-pico-wh-rp2040/dp/38AK5987?CMP=KNC-GUSA-GEN-PMAX-Shopping-New |
+| Relay Module | What it Does | https://www.amazon.com/JESSINIE-Channel-Optocoupler-Isolated-Development/dp/B0BG2F7349/ref=sr_1_3 |
+| 12V, 2A Power Supply | What it Does | Row 6, Col 2 |
+| 1N4007 Diode | What it Does | https://www.amazon.com/EEEEE-1N4007-Rectifier-Electronic-Silicon/dp/B0FC2CQF24/ref=sr_1_1_sspa |
+| Momentary Push Button | What it Does | https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2/ref=sr_1_1_sspa |  
 
 Challenges and Solutions
 ---
