@@ -1,14 +1,4 @@
 
-Components:(delete)
-- Raspberry Pi Pico W Microcontroller
-- Solenoid Water Valve
-- S-type Load Cell
-- Hx711 Load Cell Amplifier
-- Relay Module
-- 12V, 2A Power Supply
-- 1N4007 Diode
-- Momentary Push Button
-
 Project Overview
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;I developed a system that can automatically detect the water level of a chicken waterer and refill as needed. This system requires 2 main functions:
@@ -46,5 +36,12 @@ Hardware
 | Relay Module | https://www.amazon.com/JESSINIE-Channel-Optocoupler-Isolated-Development/dp/B0BG2F7349/ref=sr_1_3 |
 | 12V, 2A Power Supply | Row 6, Col 2 |
 | 1N4007 Diode | https://www.amazon.com/EEEEE-1N4007-Rectifier-Electronic-Silicon/dp/B0FC2CQF24/ref=sr_1_1_sspa |
-| Momentary Push Button | https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2/ref=sr_1_1_sspa |
+| Momentary Push Button | https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2/ref=sr_1_1_sspa |  
 
+Challenges and Solutions
+---
+BlahBlah  
+
+Project Demonstration
+---
+BlahBlah
