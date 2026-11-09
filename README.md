@@ -31,4 +31,20 @@ Code
 
 If it turns off the valve because it reached the proper weight, it will simply repeat the process. However, if it turns off because it has been running for over 75 seconds, a malfunction must have occurred because it takes no longer than 60 seconds for the valve to fill the waterer. If this happens, the entire program will enter a safety shutoff loop. Instead of taking weight readings, it will simply stay in a constant loop of it sleeping for 15 minutes, doing nothing, and then sleeping again. This is a very important piece to the program because it prevents the valve from not turning off and wasting water.  
 
-&nbsp;&nbsp;&nbsp;&nbsp;The program's last feature allows the water valve to be manually controlled. A momentary push button that is wired to the pico w allows this to happen. When pressed, the valve turns on. When it is let go, the valve turns off. Pressing the button also resets the safety shutoff system. One problem with this button was that whenever the pico w was in sleep mode, it wouldn't recognize when the button was pressed because it was mostly powered off and wouldn't wake up to check if the button was being pressed. To fix this problem, I reprogrammed the pico w during its 15 minuted sleep to sleep for one second, wake up, check if the button was pressed, and then sleep again. This way, it could still be lowering power consumption during the 15 minute sleep, but would also respond when the button was pressed. 
+&nbsp;&nbsp;&nbsp;&nbsp;The program's last feature allows the water valve to be manually controlled. A momentary push button that is wired to the pico w allows this to happen. When pressed, the valve turns on. When it is let go, the valve turns off. Pressing the button also resets the safety shutoff system. One problem with this button was that whenever the pico w was in sleep mode, it wouldn't recognize when the button was pressed because it was mostly powered off and wouldn't wake up to check if the button was being pressed. To fix this problem, I reprogrammed the pico w during its 15 minuted sleep to sleep for one second, wake up, check if the button was pressed, and then sleep again. This way, it could still be lowering power consumption during the 15 minute sleep, but would also respond when the button was pressed.  
+
+
+Hardware
+---
+
+| Component | Link |
+| --- | --- |
+| Raspberry Pi Pico W Microcontroller | https://www.newark.com/raspberry-pi/raspberry-pi-pico-wh/sbc-raspberry-pi-pico-wh-rp2040/dp/38AK5987?CMP=KNC-GUSA-GEN-PMAX-Shopping-New |
+| Solenoid Valve | https://ussolid.com/products/u-s-solid-solenoid-valve-1-2-zinc-alloy-12v-dc-solenoid-valve-nbr-seal-html?variant=46918472728831 |
+| S-type Load Cell | https://www.amazon.com/Portable-High-Precision-Pressure-Tension-Weighing/dp/B077YHNNCP/ref=sr_1_17_sspa?s=industrial |
+| Hx711 Load Cell Amplifier | https://www.newark.com/raspberry-pi/raspberry-pi-pico-wh/sbc-raspberry-pi-pico-wh-rp2040/dp/38AK5987?CMP=KNC-GUSA-GEN-PMAX-Shopping-New |
+| Relay Module | https://www.amazon.com/JESSINIE-Channel-Optocoupler-Isolated-Development/dp/B0BG2F7349/ref=sr_1_3 |
+| 12V, 2A Power Supply | Row 6, Col 2 |
+| 1N4007 Diode | https://www.amazon.com/EEEEE-1N4007-Rectifier-Electronic-Silicon/dp/B0FC2CQF24/ref=sr_1_1_sspa |
+| Momentary Push Button | https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2/ref=sr_1_1_sspa |
+
