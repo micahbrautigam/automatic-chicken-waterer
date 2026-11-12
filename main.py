@@ -4,25 +4,32 @@ from machine import Pin
 from hx711 import HX711
 import network
 
+# Turn off wifi capabilities to decrease power consumption
+
 for interface in (network.STA_IF, network.AP_IF):
     wlan = network.WLAN(interface)
     wlan.active(False)
     wlan.deinit()
 
+# Set physical pins
+
 pin_out = Pin(27, Pin.IN)
 pin_sck = Pin(28, Pin.OUT)
-
-hx = HX711(clock=pin_sck, data=pin_out)
-
-hx.tare()
-
-ratio = 20787.8
-hx.set_scale(ratio)
 
 relay_in = Pin(17, Pin.OUT)
 relay_in.value(0)
 
+hx = HX711(clock=pin_sck, data=pin_out)
+
 button = Pin(2, Pin.IN, Pin.PULL_UP)
+
+# Zero out load cell and convert readings to pounds
+
+hx.tare()
+ratio = 20787.8
+hx.set_scale(ratio)
+
+# Turn safety shutoff system off
 
 safety_turnoff = False
 
