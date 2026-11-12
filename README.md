@@ -5,7 +5,7 @@ Project Overview
 1. Determine the current water level
 2. Turn on/off water flow when necessary
 
-&nbsp;&nbsp;&nbsp;&nbsp;I designed it to be able to use the weight of the waterer to determine its capacity. The device I used to do this is a load cell, which can both get a weight reading, and transmit that reading to a microcontroller.  
+&nbsp;&nbsp;&nbsp;&nbsp;To determine the water level, I used a load cell to measure the weight of the waterer and send those readings to a microcontroller. The microcontroller then uses those measurements to make decisions based upon how heavy the waterer is.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;As for how to control water flow, I used a normally closed solenoid valve. This component proved to be perfect for this project. You simply provide power to turn water flow on, and once power is removed, it shuts off. Combining this with the load cell, the microcontroller can both determine the water level, and turn on or off water flow accordingly. 
 
@@ -28,14 +28,14 @@ Hardware
 ---
 | Component | What it Does | Link |
 | --- | --- | --- |
-| Raspberry Pi Pico W Microcontroller | What it Does | https://www.newark.com/raspberry-pi/raspberry-pi-pico-wh/sbc-raspberry-pi-pico-wh-rp2040/dp/38AK5987?CMP=KNC-GUSA-GEN-PMAX-Shopping-New |
-| Solenoid Valve | What it Does | https://ussolid.com/products/u-s-solid-solenoid-valve-1-2-zinc-alloy-12v-dc-solenoid-valve-nbr-seal-html?variant=46918472728831 |
-| S-type Load Cell | What it Does | https://www.amazon.com/Portable-High-Precision-Pressure-Tension-Weighing/dp/B077YHNNCP/ref=sr_1_17_sspa?s=industrial |
-| Hx711 Load Cell Amplifier | What it Does | https://www.newark.com/raspberry-pi/raspberry-pi-pico-wh/sbc-raspberry-pi-pico-wh-rp2040/dp/38AK5987?CMP=KNC-GUSA-GEN-PMAX-Shopping-New |
-| Relay Module | What it Does | https://www.amazon.com/JESSINIE-Channel-Optocoupler-Isolated-Development/dp/B0BG2F7349/ref=sr_1_3 |
-| 12V, 2A Power Supply | What it Does | Row 6, Col 2 |
-| 1N4007 Diode | What it Does | https://www.amazon.com/EEEEE-1N4007-Rectifier-Electronic-Silicon/dp/B0FC2CQF24/ref=sr_1_1_sspa |
-| Momentary Push Button | What it Does | https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2/ref=sr_1_1_sspa |  
+| Raspberry Pi Pico W Microcontroller | Runs the python program to control the entire system  | https://www.newark.com/raspberry-pi/raspberry-pi-pico-wh/sbc-raspberry-pi-pico-wh-rp2040/dp/38AK5987?CMP=KNC-GUSA-GEN-PMAX-Shopping-New |
+| Solenoid Valve | Turns water flow to the waterer on and off | https://ussolid.com/products/u-s-solid-solenoid-valve-1-2-zinc-alloy-12v-dc-solenoid-valve-nbr-seal-html?variant=46918472728831 |
+| S-type Load Cell | Measures the weight of the waterer | https://www.amazon.com/Portable-High-Precision-Pressure-Tension-Weighing/dp/B077YHNNCP/ref=sr_1_17_sspa?s=industrial |
+| Hx711 Load Cell Amplifier | Amplifies the load cell signal into a readable value | https://www.newark.com/raspberry-pi/raspberry-pi-pico-wh/sbc-raspberry-pi-pico-wh-rp2040/dp/38AK5987?CMP=KNC-GUSA-GEN-PMAX-Shopping-New |
+| Relay Module | Allows the Pico W to turn on and off power to the valve | https://www.amazon.com/JESSINIE-Channel-Optocoupler-Isolated-Development/dp/B0BG2F7349/ref=sr_1_3 |
+| 12V, 2A Power Supply | Supplies power to the valve | Row 6, Col 2 |
+| 1N4007 Diode | Protects the relay and Pico W from voltage spikes cause by the valve | https://www.amazon.com/EEEEE-1N4007-Rectifier-Electronic-Silicon/dp/B0FC2CQF24/ref=sr_1_1_sspa |
+| Momentary Push Button | Allows for manual control and safety system reset | https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2/ref=sr_1_1_sspa |  
 
 Challenges and Solutions
 ---
