@@ -5,7 +5,7 @@ Project Overview
 1. Determine the current water level
 2. Turn on/off water flow when necessary
 
-&nbsp;&nbsp;&nbsp;&nbsp;To determine the water level, I used a load cell to measure the weight of the waterer and send those readings to a microcontroller. The microcontroller then uses those measurements to make decisions based upon how heavy the waterer is.  
+&nbsp;&nbsp;&nbsp;&nbsp;To determine the water level, I used a load cell to measure the weight of the waterer and send those readings to a microcontroller. The microcontroller then uses those measurements to make decisions based on the waterer's measured weight.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;As for how to control water flow, I used a normally closed solenoid valve. This component proved to be perfect for this project. You simply provide power to turn water flow on, and once power is removed, it shuts off. Combining this with the load cell, the microcontroller can both determine the water level, and turn on or off water flow accordingly. 
 
@@ -16,7 +16,7 @@ How it Works
 Code
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;The micropython program remotely installed on the Pico W controls the entire system. Immediately after the Pico W receives power and starts the program, it turns off its wifi capabilities to lower power consumption, sets the physical pins on the hardware, and calibrates the load cell. It then enters a continuous loop, reading the weight of the waterer every 15 minutes, and responding accordingly. If the weight is above a certain threshold, it will do nothing, and wait another 15 minutes. But if the weight is too low, it will turn on the water valve, and start a timer. It will shut the water off if either of the following occurs:  
-- The waterer reaches its' weight threshold,
+- The waterer reaches its weight threshold,
 - Or the water valve is on for more than 75 seconds.
 
 &nbsp;&nbsp;&nbsp;&nbsp;If it turns off the valve because it reached the proper weight, it will simply repeat the process. However, if it turns off because it has been running for over 75 seconds, a malfunction must have occurred because it takes no longer than 60 seconds for the valve to fill the waterer. If this happens, the entire program will enter a safety shutoff loop. Instead of taking weight readings, it will simply stay in a constant loop of it sleeping for 15 minutes, doing nothing, and then sleeping again. This is a very important piece to the program because it prevents the valve from not turning off and wasting water.  
