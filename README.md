@@ -47,8 +47,12 @@ Challenges and Solutions
 
 Project Demonstration
 ---
-Startup:
+Click the links below to watch videos demonstrating the project:
 
-Safety Shutoff:
+[![Startup](https://youtube.com)](https://www.youtube.com/watch?v=3ukol3rfPg8)
 
-Manual Control:
+[![Safety Shutoff](https://youtube.com)](https://www.youtube.com/watch?v=_XZ7IsIZTyc)
+
+[![Manual Control](https://youtube.com)](https://www.youtube.com/watch?v=erbwqbOfA_I)
+
+
