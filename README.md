@@ -33,7 +33,7 @@ Hardware
 | S-type Load Cell | Measures the weight of the waterer | https://www.amazon.com/Portable-High-Precision-Pressure-Tension-Weighing/dp/B077YHNNCP/ref=sr_1_17_sspa?s=industrial |
 | Hx711 Load Cell Amplifier | Amplifies the load cell signal into a readable value | https://www.newark.com/raspberry-pi/raspberry-pi-pico-wh/sbc-raspberry-pi-pico-wh-rp2040/dp/38AK5987?CMP=KNC-GUSA-GEN-PMAX-Shopping-New |
 | Relay Module | Allows the Pico W to turn on and off power to the valve | https://www.amazon.com/JESSINIE-Channel-Optocoupler-Isolated-Development/dp/B0BG2F7349/ref=sr_1_3 |
-| 12V, 2A Power Supply | Supplies power to the valve | Row 6, Col 2 |
+| 12V, 2A Power Supply | Supplies power to the valve | https://www.amazon.com/dp/B09ST95SW5 |
 | 1N4007 Diode | Protects the relay and Pico W from voltage spikes cause by the valve | https://www.amazon.com/EEEEE-1N4007-Rectifier-Electronic-Silicon/dp/B0FC2CQF24/ref=sr_1_1_sspa |
 | Momentary Push Button | Allows for manual control and safety system reset | https://www.amazon.com/QTEATAK-Momentary-Tactile-Button-Switch/dp/B07VSNN9S2/ref=sr_1_1_sspa |  
 
