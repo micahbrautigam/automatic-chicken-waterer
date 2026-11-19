@@ -1,4 +1,4 @@
-
+![Pic](https://github.com/micahbrautigam/automatic-chicken-waterer/blob/main/20261116_132147.jpg?raw=true)
 Project Overview
 ---
 &nbsp;&nbsp;&nbsp;&nbsp;I developed a system that can automatically detect the water level of a chicken waterer and refill as needed. This system requires 2 main functions:
