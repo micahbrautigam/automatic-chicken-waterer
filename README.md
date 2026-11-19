@@ -15,7 +15,7 @@ How it Works
 
 Code
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;The micropython program remotely installed on the Pico W controls the entire system. Immediately after the Pico W receives power and starts the program, it turns off its wifi capabilities to lower power consumption, sets the physical pins on the hardware, and calibrates the load cell. It then enters a continuous loop, reading the weight of the waterer every 15 minutes, and responding accordingly. If the weight is above a certain threshold, it will do nothing, and wait another 15 minutes. But if the weight is too low, it will turn on the water valve, and start a timer. It will shut the water off if either of the following occurs:  
+&nbsp;&nbsp;&nbsp;&nbsp;The micropython program remotely installed on the Pico W controls the entire system. Immediately after the Pico W receives power and starts the program, it turns off its wifi capabilities to lower power consumption, sets the physical pins on the hardware, and zeros and configures the load cell. It then enters a continuous loop, reading the weight of the waterer every 15 minutes, and responding accordingly. If the weight is above a certain threshold, it will do nothing, and wait another 15 minutes. But if the weight is too low, it will turn on the water valve, and start a timer. It will shut the water off if either of the following occurs:  
 - The waterer reaches its weight threshold,
 - Or the water valve is on for more than 75 seconds.
 
