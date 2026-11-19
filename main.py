@@ -34,6 +34,7 @@ hx.set_scale(ratio)
 safety_turnoff = False
 
 def battery_sleep_15_min():
+# Checks every second if the button is pressed so the button can be used to control the valve during sleep    
     for _ in range(900):
         if button.value() == 0:
             break
