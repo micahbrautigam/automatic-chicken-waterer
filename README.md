@@ -56,6 +56,10 @@ Shows the Pico W being plugged in, and the program starting. It senses that the 
 Shows the Pico W being plugged in and the program starting, but the waterer isn't being filled up. After 75 seconds, the Pico W turns the water off even though the weight of the waterer hasn't changed and enters the safety shutoff loop.
 
 [![Manual Control](https://youtube.com)](https://www.youtube.com/watch?v=erbwqbOfA_I)  
-Shows the button being pressed turning the water valve on.
+Shows the button being pressed turning the water valve on.  
+
+Wiring Diagram
+---  
+![Wiring Diagram](Wiring%20Diagram.svg)
 
 
