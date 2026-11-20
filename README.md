@@ -53,7 +53,7 @@ Click the links below to watch videos demonstrating the project:
 Shows the Pico W being plugged in, and the program starting. It senses that the weight is zero, and starts filling the waterer. At around 0:58 it shuts off, then starts its sleep/monitoring weight cycle.
 
 [![Safety Shutoff](https://youtube.com)](https://www.youtube.com/watch?v=_XZ7IsIZTyc)  
-Shows the Pico W being plugged in and the program starting, but the water is filling buckets instead of the waterer. After 75 seconds, the Pico W turns the water off even though the weight of the waterer hasn't changed and enters the safety shutoff loop.
+Shows the Pico W being plugged in and the program starting, but the water is filling buckets instead of the waterer. After 75 seconds, the Pico W turns the water off, even though the weight of the waterer hasn't changed, and enters the safety shutoff loop.
 
 [![Manual Control](https://youtube.com)](https://www.youtube.com/watch?v=erbwqbOfA_I)  
 Shows the button being pressed and turning the water valve on.  
